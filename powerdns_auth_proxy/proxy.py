@@ -26,7 +26,7 @@ servers = [
 
 def json_request(f):
     """
-    If the request contains valid JSON then store that in "g" to be used later. For compatbility with various things (like traefik), don't require the JSON content type.
+    If the request contains valid JSON then store that in "g" to be used later. For compatibility with various things (like traefik), don't require the JSON content type.
     """
 
     @wraps(f)

@@ -162,7 +162,7 @@ def json_or_none(response):
 @json_response
 def api():
     """
-    GET: The version returned is "1" for compability but we add an extra field to show that this isn't the official PowerDNS API.
+    GET: The version returned is "1" for compatibility but we add an extra field to show that this isn't the official PowerDNS API.
     """
     return [
         {

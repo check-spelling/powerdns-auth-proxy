@@ -364,7 +364,7 @@ def test_api_zone_get(client):
 
 
 def test_api_zone_create_override(client):
-    # try and specify an option that is overriden
+    # try and specify an option that is overridden
     response = client.post(
         "/api/v1/servers/localhost/zones",
         headers=api_key_header(client),
@@ -426,7 +426,7 @@ def test_api_zone_put(client):
     )
     assert response.status_code == 403
 
-    # try an update which will be overriden
+    # try an update which will be overridden
     json = {
         "kind": "NATIVE",
         "account": "someone-else",

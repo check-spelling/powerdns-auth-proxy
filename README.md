@@ -25,7 +25,7 @@ key = dd70d1b0eccd79a0cf5d79ddf6672dce
 allow-suffix-creation = example.org.
 ````
 
-This specifies the API key and URL used to connect to the PowerDNS backend, as well as allowing for certain zone metadata items which will be overriden during zone creation and metadata updates. `account` is always overriden to prevent people from moving zones around between accounts they don't control. What you override will likely depend on how much access users need in your environment.
+This specifies the API key and URL used to connect to the PowerDNS backend, as well as allowing for certain zone metadata items which will be overridden during zone creation and metadata updates. `account` is always overridden to prevent people from moving zones around between accounts they don't control. What you override will likely depend on how much access users need in your environment.
 
 Keys should be generated using something like `dd if=/dev/urandom bs=1 count=16 | xxd -ps` to ensure they have sufficient entropy.
 

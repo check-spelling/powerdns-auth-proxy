@@ -50,7 +50,7 @@ autorestart=true
 
 * Ubuntu / Debian
 
-  The officially supported system for testing is Debian or Ubuntu. To start, install the the official PowerDNS 4.1.x upstream packages: `pdns-server` and `pdns-backend-sqlite3`.
+  The officially supported system for testing is Debian or Ubuntu. To start, install the official PowerDNS 4.1.x upstream packages: `pdns-server` and `pdns-backend-sqlite3`.
 
 * Arch
 

@@ -26,7 +26,7 @@ servers = [
 
 def json_request(f):
     """
-    If the request contains valid JSON then store that in "g" to be used later. For compatbility with various things (like traefik), don't require the JSON content type.
+    If the request contains valid JSON then store that in "g" to be used later. For compatibility with various things (like traefik), don't require the JSON content type.
     """
 
     @wraps(f)
@@ -162,7 +162,7 @@ def json_or_none(response):
 @json_response
 def api():
     """
-    GET: The version returned is "1" for compability but we add an extra field to show that this isn't the official PowerDNS API.
+    GET: The version returned is "1" for compatibility but we add an extra field to show that this isn't the official PowerDNS API.
     """
     return [
         {
